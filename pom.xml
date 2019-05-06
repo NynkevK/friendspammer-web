@@ -27,6 +27,19 @@
     <maven.compiler.source>1.8</maven.compiler.source>
   </properties>
 
+  <repositories>
+    <repository>
+      <id>NynkevK-public-friendspammer-helper</id>
+      <url>https://packagecloud.io/NynkevK/public-friendspammer-helper/maven2</url>
+      <releases>
+        <enabled>true</enabled>
+      </releases>
+      <snapshots>
+        <enabled>true</enabled>
+      </snapshots>
+    </repository>
+  </repositories>
+
   <build>
     <finalName>friendspammer-web</finalName>
   </build>
